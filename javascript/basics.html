@@ -1,0 +1,20 @@
+<script>;
+var devices = ["Apple", "Windows", "Android", "Other"];
+var items = "";
+for (var i = 0; i < devices.length; i++) {
+    items += '<div id="' + devices[i]  + '"  style="display:none;" class="answer_list">'  + devices[i] + '</div>';
+}
+document.write(items);
+
+function showElemental(device) {
+    for (var i = 0; i < devices.length; i++) {
+        document.getElementById(devices[i]).style.display = "none";
+    }
+    document.getElementById(device).style.display = "block";
+}
+</script>
+
+<input type="button" name="answer" value="Apple" onclick="showElemental('Apple')" />
+<input type="button" name="answer" value="Windows" onclick="showElemental('Windows')" />
+<input type="button" name="answer" value="Android" onclick="showElemental('Android')" />
+<input type="button" name="answer" value="Other" onclick="showElemental('Other')" />
