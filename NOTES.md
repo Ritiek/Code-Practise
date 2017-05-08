@@ -7,3 +7,7 @@
 `$ apt-get install alsa-oss`
 
 `$ aoss mplayer <sound_file>`
+
+#### Royale Test:
+
+http://statsroyale.com/profile/9890JJJV
