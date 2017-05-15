@@ -1,0 +1,6 @@
+[package]
+name = "almost_increasing_sequence"
+version = "0.1.0"
+authors = ["Ritiek <ritiekmalhotra123@gmail.com>"]
+
+[dependencies]
