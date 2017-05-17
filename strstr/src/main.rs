@@ -19,7 +19,7 @@ fn strstr(s: &str, x: &str) -> i32 {
 			return (piece_range + 1) as i32;
 		}
 	}
-	return -1;
+	-1
 }
 
 fn main() {
