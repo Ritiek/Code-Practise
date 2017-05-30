@@ -1,0 +1,1 @@
+/home/pi/scripts/rust/challenges/CodeWars/Code-Practise/almost_increasing_sequence/target/debug/almost_increasing_sequence: /home/pi/scripts/rust/challenges/CodeWars/Code-Practise/almost_increasing_sequence/src/main.rs
