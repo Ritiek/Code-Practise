@@ -1,0 +1,6 @@
+[package]
+name = "circle_area_inside_square"
+version = "0.1.0"
+authors = ["Ritiek <ritiekmalhotra123@gmail.com>"]
+
+[dependencies]
