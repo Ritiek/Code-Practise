@@ -1,5 +1,6 @@
 pub struct Rafy {
     url: String,
+    calls_function: String,
     info: Info,
 }
 
@@ -10,10 +11,14 @@ pub struct Info {
 impl Rafy {
     pub fn new(url: &str) -> Rafy {
         let info = Info { info: "This is some description".to_string() };
-        Rafy { url: url.to_string(), info: info }
+        let call_function = Rafy::a_function();
+        Rafy { url: url.to_string(), calls_function: call_function, info: info }
     }
     pub fn get_total(&self) -> String {
         format!("{} {}", self.url, "<- Google!")
+    }
+    fn a_function() -> String {
+        "return from function".to_string()
     }
 }
 
@@ -29,3 +34,5 @@ fn main() {
     println!("{}", thing.get_total());
     println!("{}", thing.info.info);
     println!("{}", thing.info.get_info());
+    println!("{}", thing.calls_function);
+}
