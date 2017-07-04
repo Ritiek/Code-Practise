@@ -11,7 +11,7 @@ pub struct Info {
 impl Rafy {
     pub fn new(url: &str) -> Rafy {
         let info = Info { info: "This is some description".to_string() };
-        let call_function = Rafy::a_function();
+        let call_function = Self::a_function();
         Rafy { url: url.to_string(), calls_function: call_function, info: info }
     }
     pub fn get_total(&self) -> String {
