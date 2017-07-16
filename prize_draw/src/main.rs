@@ -11,7 +11,7 @@ fn rank(st: &str, we: Vec<i32>, n: usize) -> &str {
 
     let mut ranks: Vec<usize> = Vec::new();
     for (n, name) in names.iter().enumerate() {
-        let mut sum = 0;
+        let mut sum = name.len();
         for letter in name.chars() {
             for (i, alphabet) in alphabets.chars().enumerate() {
                 if letter == alphabet {
