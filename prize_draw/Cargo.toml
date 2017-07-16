@@ -1,0 +1,6 @@
+[package]
+name = "prize_draw"
+version = "0.1.0"
+authors = ["ritiek <ritiekmalhotra123@gmail.com>"]
+
+[dependencies]
