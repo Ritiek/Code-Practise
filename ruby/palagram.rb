@@ -6,10 +6,10 @@ def anagram(s)
   s_squeeze.chars.sort.each { |c|
     appnc = s.count(c)
     if appnc % 2 == 1
-        if odd
-          return "NO"
-        end
-        odd = true
+      if odd
+        return "NO"
+      end
+      odd = true
     end
   }
   return "YES"
