@@ -76,6 +76,9 @@ factorial''' t = input t
     where input 0 = 1
           input t = t * factorial''' (t - 1)
 
+factorial'''' :: Integer -> Integer
+factorial'''' z = product [1..z]
+
 maximum' :: (Ord l) => [l] -> l
 maximum' [x] = x
 maximum' a = max (head a) (maximum' (tail a))
